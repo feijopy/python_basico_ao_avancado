@@ -11,27 +11,28 @@
 # !ordem de precedência.
 
 dados_imc = {
-	'email': 'feijopy@gmail.com',
-	'sexo': 'Masculino',
-	'idade': 34,
-	'peso': 81.55,
-	'altura': 1.69,
-	'imc': None,
+    'Nome': 'ROBSON ALVES FEIJÓ',
+	'Sexo': 'Masculino',
+	'Idade': 34,
+	'Altura': 1.69,
+	'Peso': 81.55,
+	'IMC': None,
+    'Acima do peso': None
 }
 
-resultado_imc = round(dados_imc['peso'] / (dados_imc['altura'] * dados_imc['altura']), 2)
+resultado_imc = round(dados_imc['Peso'] / (dados_imc['Altura'] * dados_imc['Altura']), 2)
 
 print(f'IMC: {resultado_imc}')
 
-# TODOS FUNÇÕES		: São blocos de código que podem ser reutilizados.
+# TODOS FUNÇÕES		: São blocos de códigos reutilizáveis.
 # print : Imprime dados na tela.
 # round : Arredonda número para casa decimal estipulada.
 
-# TODOS MÉTODOS		: São funções que pertencem a uma classe. 
+# TODOS MÉTODOS		: São funções que estão associadas a um objeto.
 #       :
 
-# TODOS MÓDULOS		: São arquivos que podem ser importados.
+# TODOS MÓDULOS		: São arquivos que podem ser importados em outros arquivos.
 #       :
 
-# TODOS BIBLIOTECAS	: São conjuntos de módulos que são disponibilizados 
+# TODOS BIBLIOTECAS	: São conjuntos de módulos com funcionalidades específicas. 
 #       :

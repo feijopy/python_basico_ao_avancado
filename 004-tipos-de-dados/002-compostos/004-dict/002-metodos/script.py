@@ -4,41 +4,29 @@
 # Seus dados são acessados por suas chaves e não índices.
 
 dados_imc = {
-	'email': 'feijopy@gmail.com',
-	'sexo': 'Masculino',
-	'idade': 34,
-	'peso': 81.55,
-	'altura': 1.69,
-	'imc': None,
+    'Nome': 'ROBSON ALVES FEIJÓ',
+	'Sexo': 'Masculino',
+	'Idade': 34,
+	'Altura': 1.69,
+	'Peso': 81.55,
+	'IMC': None,
+    'Acima do peso': None
 }
 
-print(dados_imc)
-print(type(dados_imc))
-
-# Exibindo um dado de um dicionário:
-print(dados_imc['email'])
-
-# Adicionando dado em um dicionário:
-dados_imc['nome'] = 'ROBSON ALVES FEIJÓ'
-print(dados_imc)
-
 # Deletando dado de um dicionário:
-del dados_imc['nome']
+print(dados_imc)
+del dados_imc['IMC']
+del dados_imc['Acima do peso']
 print(dados_imc)
 
-# Realizando alteração de um dicionário:
-dados_imc['altura'] = 1.67
-print(dados_imc)
-
-# TODOS FUNÇÕES		: São blocos de código que podem ser reutilizados.
+# TODOS FUNÇÕES		: São blocos de códigos reutilizáveis.
 # print : Imprime dados na tela.
-# type  : Verifica o tipo de dado.
 
-# TODOS MÉTODOS		: São funções que pertencem a uma classe. 
+# TODOS MÉTODOS		: São funções que estão associadas a um objeto.
 # del   : Deleta elemento especificado na lista.
 
-# TODOS MÓDULOS		: São arquivos que podem ser importados.
+# TODOS MÓDULOS		: São arquivos que podem ser importados em outros arquivos.
 #       :
 
-# TODOS BIBLIOTECAS	: São conjuntos de módulos que são disponibilizados 
+# TODOS BIBLIOTECAS	: São conjuntos de módulos com funcionalidades específicas. 
 #       :

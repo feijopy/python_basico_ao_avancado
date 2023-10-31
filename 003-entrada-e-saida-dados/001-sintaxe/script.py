@@ -20,15 +20,15 @@ nome_completo = nome + ' ' + sobrenome
 # Saída dos dados:
 print(f'Seja bem-vindo {nome_completo}!')
 
-# TODOS FUNÇÕES		: São blocos de código que podem ser reutilizados.
+# TODOS FUNÇÕES		: São blocos de códigos reutilizáveis.
 # input : Recebe dados do usuário.
 # print : Imprime dados na tela.
 
-# TODOS MÉTODOS		: São funções que pertencem a uma classe. 
+# TODOS MÉTODOS		: São funções que estão associadas a um objeto.
 #       :
 
-# TODOS MÓDULOS		: São arquivos que podem ser importados.
+# TODOS MÓDULOS		: São arquivos que podem ser importados em outros arquivos.
 #       :
 
-# TODOS BIBLIOTECAS	: São conjuntos de módulos que são disponibilizados 
+# TODOS BIBLIOTECAS	: São conjuntos de módulos com funcionalidades específicas. 
 #       :

@@ -3,7 +3,7 @@
 # lista, seus elementos não podem ser alterados, adicionados ou deletados,
 # pois seus elementos são imutáveis.
 
-dados_imc = (None, 34, 81.55, 'feijopy@gmail.com', True)
+dados_imc = ('ROBSON ALVES FEIJÓ', [34, 81.55, 1.69], True, None)
 print(dados_imc)
 print(type(dados_imc))
 
@@ -11,20 +11,20 @@ print(type(dados_imc))
 print(dados_imc[0])
 
 # Realizando alteração em uma tupla:
-dados_imc[4] = False
+dados_imc[2] = False
 print(dados_imc)
 # !NOTA¹: Será emitido um erro ao tentar alterar o elemento de uma tupla.
 # !Se tentarmos adicionar ou remover, retornará um erro.
 
-# TODOS FUNÇÕES		: São blocos de código que podem ser reutilizados.
+# TODOS FUNÇÕES		: São blocos de códigos reutilizáveis.
 # print : Imprime dados na tela.
 # type  : Verifica o tipo de dado.
 
-# TODOS MÉTODOS		: São funções que pertencem a uma classe. 
+# TODOS MÉTODOS		: São funções que estão associadas a um objeto.
 #       :
 
-# TODOS MÓDULOS		: São arquivos que podem ser importados.
+# TODOS MÓDULOS		: São arquivos que podem ser importados em outros arquivos.
 #       :
 
-# TODOS BIBLIOTECAS	: São conjuntos de módulos que são disponibilizados 
+# TODOS BIBLIOTECAS	: São conjuntos de módulos com funcionalidades específicas. 
 #       :

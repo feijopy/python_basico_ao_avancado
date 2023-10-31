@@ -1,37 +1,25 @@
-/**
- * Executa um determinado código entre duas condições de forma simplificada.
- * Normalmente usado quando temos APENAS duas condições a serem satisfeitas.
- */
+# Executa um determinado código entre duas condições de forma simplificada.
+# Normalmente usado quando temos duas condições a serem testadas.
 
-function verificaIdade (idade) {
-  return `Você tem ${idade} de idade, portando ${idade >= 18 ? 'você é maior de idade!' : 'você é menor de idade!'}`
-}
+# TODO: Tipos de dados que retornam false (Falsy):
+# - false
+# - undefined
+# - null
+# - NaN
+# - 0
+# - -0
+# - ''
+# - ""
+# !NOTA¹: Todos os demais dados retornam true (Truthy).
 
-console.log(verificaIdade(17))
-
-
-
-/**
- * TODO: Tipos de dados que retornam false (Falsy):
- * - false
- * - undefined
- * - null
- * - NaN
- * - 0
- * - -0
- * - ''
- * - ""
- * !NOTA¹: Todos os demais dados retornam true (Truthy).
- */
-
-# TODOS FUNÇÕES		: São blocos de código que podem ser reutilizados.
+# TODOS FUNÇÕES		: São blocos de códigos reutilizáveis.
 # print : Imprime dados na tela.
 
-# TODOS MÉTODOS		: São funções que pertencem a uma classe. 
+# TODOS MÉTODOS		: São funções que estão associadas a um objeto.
 #       :
 
-# TODOS MÓDULOS		: São arquivos que podem ser importados.
+# TODOS MÓDULOS		: São arquivos que podem ser importados em outros arquivos.
 #       :
 
-# TODOS BIBLIOTECAS	: São conjuntos de módulos que são disponibilizados 
+# TODOS BIBLIOTECAS	: São conjuntos de módulos com funcionalidades específicas. 
 #       :

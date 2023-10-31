@@ -29,12 +29,11 @@
 # fácil compreensão, se tornando uma das linguanges mais simples de usar.
 
 # ?COMO
-# Os códigos são organizados por expressões, sentenças e/ou blocos de códigos,
-# onde os mesmos são interpretados pelo interpretador Python e exibido ao
-# cliente. Em Python, os códigos são frequentemente estruturados em torno de
-# objetos e suas respectivas propriedades que podem ou não acompanhar funções.
-# Algumas dessas funções quando invocadas executam ações (métodos) que altera o
-# valor da propriedade de um objeto.
+# Os códigos podem ser organizados por expressões, sentenças e/ou blocos de
+# códigos, onde são executados pelo interpretador do Python. Em Python, os
+# códigos são frequentemente estruturados por objetos que podem ou não
+# acompanhar funções, onde executarão ações por meio de métodos, alterando os
+# atributos (propriedades) de um objeto.
 
 # ?DOCUMENTAÇÃO
 # https://docs.python.org/pt-br/3/
@@ -48,14 +47,14 @@ print('Olá, mundo em Python!')
 # python3 -c "print('Olá, mundo!')"   : Executa comandos.
 # python3                             : Inicia interpretador interativo.
 
-# TODOS FUNÇÕES		: São blocos de código que podem ser reutilizados.
+# TODOS FUNÇÕES		: São blocos de códigos reutilizáveis.
 # print : Imprime dados na tela.
 
-# TODOS MÉTODOS		: São funções que pertencem a uma classe. 
+# TODOS MÉTODOS		: São funções que estão associadas a um objeto. 
 #       :
 
-# TODOS MÓDULOS		: São arquivos que podem ser importados.
+# TODOS FUNÇÕES		: São blocos de códigos reutilizáveis.
 #       :
 
-# TODOS BIBLIOTECAS	: São conjuntos de módulos que são disponibilizados 
+# TODOS BIBLIOTECAS	: São conjuntos de módulos com funcionalidades específicas. 
 #       :
